@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style.css">
+    <title>Тестовое задание</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="top">
+                <h1 class="title">Оформить заказ</h1>
+            </div>
+            <div class="inputData">
+                <span id="phoneError" style="color: red;"></span>
+                <input type="text" id="name" placeholder="Имя" required>
+                <input maxlength="15" type="text" id="phoneInput" placeholder="Номер телефона" id="phone" required>
+                <input type="text" readonly value="test" id="test">
+                <button class="sumbit" onclick="checkPhoneNumber()">Проверить номер</button>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="assets/index.js"></script>
+</html>

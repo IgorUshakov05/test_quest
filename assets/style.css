@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/assets/static/Raleway-Italic.ttf');
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('/assets/static/Raleway-Bold.ttf');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('/assets/static/Raleway-BoldItalic.ttf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+html, body, main {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+.container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    max-width: 90%;
+    margin: auto;
+    right: 0;
+    left: 0;
+    width: 400px;
+    height: fit-content;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+.inputData {
+    margin-top: 15px;
+}
+input {
+    font-weight: 400;
+    border:1px solid black;
+    padding: 10px;
+    border-radius: 4px;
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 0.4px;
+    width: 100%;
+}
+
+
+input:not(:nth-child(1)) {
+    margin-top: 10px;
+}
+
+.title {
+    font-size: 25px;
+}
+.sumbit {
+    width: 100%;
+    padding: 10px;
+    background:none;
+    border: 1px solid black;
+    border-radius:4px;
+    margin-top: 20px;
+}
